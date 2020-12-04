@@ -37,12 +37,16 @@ body {
     color: white;
     text-align: right;
     display: inline-block;
+    text-decoration-style: none;
     
 }
+.nav .nav-pills{
+    color: white;
+    text-decoration-style: none;
+}
 
-.navigation.logo {
+.nav.logo {
     font-weight: bolder;
-    color: var(--primary-dark);
     color: white;
 }
 
@@ -52,7 +56,7 @@ body {
     color: white;
 }
 
-.navigation ul {
+.nav ul {
     text-align: right;
     color: white;
 }
@@ -63,19 +67,16 @@ header {
 header h1 {
     text-align: center;
     padding-top: 0rem;
-    color: #34D399;
+    color: #6B7280;
 }
 
-header .hero {
-    border-radius: 2rem;
-    max-width: 300px;
+header .image {
+border-radius: 1rem;
+    max-width: 400px;
     height: auto;
     margin: auto;
     display: block;
-}
-header .image {
-max-width: 500px;
-margin: 0;
+    padding:0.5rem;
 }
 
 .ow {
