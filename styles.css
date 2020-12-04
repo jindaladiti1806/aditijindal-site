@@ -80,17 +80,36 @@ border-radius: 1rem;
 }
 
 .ow {
-    background-color: var(--primary-dark);
+    background-color: #D1FAE5;
+    text-align: center;
+    
 }
 
 section {
     padding: 2rem 1rem 2rem 1rem;
+   
+}
+.section h1,h2,h3{
+    text-align: center;
 }
 #home .home-heading {
     text-align: center;
     padding-top: 1rem;
     color: var(--light-gray);
   }
+  .primary-link {
+    
+   color: white;
+   text-decoration: none;
+   font-size: 1rem;
+   padding: 0.5rem 1rem;
+   border-radius :0.5rem;
+   text-decoration: none;
+   background-color: var(--primary);
+   
+   letter-spacing: 0.1rem;
+   box-sizing: border-box;
+}
 
 
 /** footers **/
@@ -103,6 +122,9 @@ footer {
     border-top-left-radius: 1rem;
     border-top-right-radius: 1rem;
     
+}
+#footer .footer-header{
+    font-weight: bolder;
 }
 
 footer a {
