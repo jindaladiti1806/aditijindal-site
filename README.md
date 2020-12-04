@@ -1,3 +1,3 @@
 # Aditi's Portfolio
 
-hey!! welcome to my portfolio...
+It is a static website using HTML & CSS.
