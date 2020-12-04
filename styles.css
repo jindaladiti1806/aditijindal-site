@@ -1,0 +1,124 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+:root {
+    --primary: #34D399;
+    --secondary: #f50057;
+    --primary-dark: #10B981;
+    --secondary-dark: #ab003c;
+    --off-white: #f8f8f8;
+    --white: #ffffff
+}
+body {
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  
+  .nav {
+    
+    background-color: #34D399;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    padding: 0.5rem;
+    justify-content: space-between;
+    display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: flex-end;
+  text-align: center;
+  text-align: right;
+  text-decoration-style: none;
+ 
+  
+}
+  
+.nav .active {
+    font-weight: bolder;
+    color: white;
+    text-align: right;
+    display: inline-block;
+    
+}
+
+.navigation.logo {
+    font-weight: bolder;
+    color: var(--primary-dark);
+    color: white;
+}
+
+.nav li {
+    display: inline-block;
+    padding: 0.5rem;
+    color: white;
+}
+
+.navigation ul {
+    text-align: right;
+    color: white;
+}
+header {
+    padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+}
+
+header h1 {
+    text-align: center;
+    padding-top: 0rem;
+    color: #34D399;
+}
+
+header .hero {
+    border-radius: 2rem;
+    max-width: 300px;
+    height: auto;
+    margin: auto;
+    display: block;
+}
+header .image {
+max-width: 500px;
+margin: 0;
+}
+
+.ow {
+    background-color: var(--primary-dark);
+}
+
+section {
+    padding: 2rem 1rem 2rem 1rem;
+}
+#home .home-heading {
+    text-align: center;
+    padding-top: 1rem;
+    color: var(--light-gray);
+  }
+
+
+/** footers **/
+footer {
+    
+    background-color: #34D399;
+    padding: 1rem;
+    text-align: center;
+    color: var(--white);
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    
+}
+
+footer a {
+    color: var(--white);
+    
+    display: inline-block;
+    padding: 0.5rem;
+}
+
+footer li {
+    list-style: none;
+    padding: 0.5rem;;
+    color: white;
+}
+
+.text-m {
+    font-size: 1.2rem;
+    color: white;
+}
+
