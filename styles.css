@@ -60,6 +60,20 @@ body {
     text-align: right;
     color: white;
 }
+.nav-brand{
+    margin:center;
+    border-radius: 1rem;
+}
+.brand{
+    margin:center;
+    border-radius: 1rem;
+    max-width:500px;
+    height: auto;
+    margin: auto;
+    display: block;
+    padding:0.5rem;
+}
+
 header {
     padding: 0.5rem 0.5rem 0.5rem 0.5rem;
 }
