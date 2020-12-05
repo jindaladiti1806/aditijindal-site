@@ -114,15 +114,37 @@ section {
   .primary-link {
     
    color: white;
-   text-decoration: none;
    font-size: 1rem;
    padding: 0.5rem 1rem;
    border-radius :0.5rem;
    text-decoration: none;
    background-color: var(--primary);
-   
    letter-spacing: 0.1rem;
    box-sizing: border-box;
+}
+.secondary-link {
+    
+    color:  #059669;
+    border: 1px solid #059669;
+    border-radius: 0.5px;
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+    border-radius :0.5rem;
+    text-decoration: none;
+    letter-spacing: 0.1rem;
+    box-sizing: border-box;
+ }
+article h3{
+    text-align: left;
+}
+.projects{
+    max-width: 900px;
+    border: 2px solid var(--dark-gray);
+    border-radius: 5px;
+    min-height: 150px;
+    width: 80%;
+    margin: 1rem;
+    
 }
 
 
